@@ -1,0 +1,10 @@
+cd ..
+cat << 'EOF' > .gitignore
+backend/build/
+.vscode/
+*.bin
+*.log
+*.idx
+*.huff
+node_modules/
+EOF
